@@ -5,8 +5,6 @@ gem 'sqlite3'
 gem 'haml'
 gem 'devise'
 gem 'cancan'
-gem 'hpricot'
-gem 'ruby_parser'
 
 group :development, :test do
   gem 'rspec-rails'
