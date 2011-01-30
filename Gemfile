@@ -14,6 +14,10 @@ group :development, :test do
   gem 'timecop'
 end
 
+group :production do
+  gem 'newrelic_rpm'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
