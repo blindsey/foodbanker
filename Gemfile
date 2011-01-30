@@ -5,6 +5,7 @@ gem 'sqlite3'
 gem 'haml'
 gem 'devise'
 gem 'cancan'
+gem 'exceptional'
 
 group :development, :test do
   gem 'rspec-rails'
