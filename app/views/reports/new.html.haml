@@ -1,0 +1,14 @@
+= form_for(@report) do |f|
+  %fieldset
+    %div
+      %label{:for => "agency_name"} Agency Name
+      = f.text_field :agency_name
+    %div
+      %label{:for => "program_name"} Program Name
+      = f.text_field :program_name
+    %div
+      %label{:for => "person_name"} Person Completing Form
+      = f.text_field :person_name
+    %div
+      %label{:for => "phone_number"} Phone number
+      = f.text_field :phone_number
